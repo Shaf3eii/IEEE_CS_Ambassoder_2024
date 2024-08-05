@@ -1,4 +1,4 @@
-# Install script for directory: D:/IEEE_Tasks/C. Can I Square
+# Install script for directory: D:/My_Github/IEEE_CS_Ambassoder_2024/Rookie_Tasks/Task1/C. Can I Square
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "D:/IEEE_Tasks/C. Can I Square/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/My_Github/IEEE_CS_Ambassoder_2024/Rookie_Tasks/Task1/C. Can I Square/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
