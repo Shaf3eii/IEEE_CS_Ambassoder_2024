@@ -1,0 +1,14 @@
+<!-- Type Question 1 Answer Below -->
+" <!doctype HTML>   or  <!DOCTYPE HTML> "
+
+<!-- Type Question 2 Answer Below -->
+" Quicker Mode "
+
+<!-- Type Question 3 Answer Below -->
+" NO "
+
+<!-- Type Question 4 Answer Below -->
+" NO "
+
+<!-- Type Question 5 Answer Below -->
+" used to define different levels of headings "

@@ -1,0 +1,10 @@
+1- Make a link to contact
+<a href="mail@gmail.com">Contact Me</a>
+ 
+2- Make a pdf download link
+<a href="Pdf.file">Download</a>
+
+3- Make a link goes to external website
+<a href="www.gmail.com">Gmail</a>
+tip : use "target = "_blank"" to open the link in another page
+
