@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Assignment</title>
+    </head>
+    <body>
+        <form method="get">
+            <div>
+                <label for="name">Name</label>
+                <input id="name" type="text" autofocus minlength="5" maxlength="20" required>
+            </div>
+            <br>
+            <div>
+                <label for="email">Email</label>
+                <input id ="email" type="text" readonly value="o@o.com">
+            </div>
+            <br>    
+            <div>
+                <label for="token" hidden>Token</label>
+                <input  id="token" type="hidden" value="b92f1fc2fce391ad7af633723afd3055">
+            </div>
+            <div>
+                <label for="skill">Skills :</label>
+                <select id="skill" name="skills" multiple>
+                <option selected>Problem Solving</option>
+                <option>Analysis</option>
+                <option>Planning</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="job">Job :</label>
+                <select id="job" name="job">
+                <option>Data Science</option>
+                <option selected>Back-End</option>
+                <option>Front-End</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" value="Send">
+            <input type="reset" value="Empty">
+        </form>
+    </body>
+</html>

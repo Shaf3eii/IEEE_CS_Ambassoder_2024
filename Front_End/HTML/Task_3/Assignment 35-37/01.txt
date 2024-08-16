@@ -1,0 +1,9 @@
+1- submit
+2- title
+3- h2
+4- article
+5- <!doctype>
+6- 10 To 20 , make it easy for screen reader
+7- attribute tabindex
+8- Accesabillity reach internet area
+ 
