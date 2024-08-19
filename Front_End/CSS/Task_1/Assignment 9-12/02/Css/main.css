@@ -1,0 +1,17 @@
+.element-element-1{
+    border-left: 10px solid blueviolet;
+    background-color: rgb(240, 243, 245);
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}
+.element-element-2{
+    visibility: hidden;
+}
+.element-element-3{
+    border-left: 10px solid rgb(43, 226, 104);
+    background-color: rgb(240, 243, 245);
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+}

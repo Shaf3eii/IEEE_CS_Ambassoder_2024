@@ -1,0 +1,29 @@
+.first {
+    display: inline-block;
+    border: 5px red solid;
+    outline: 5px black solid;
+    padding: 5px;
+    margin: 5px;
+    background-color: antiquewhite;
+}
+
+.second {
+    display: inline-block;
+    border: 5px solid;
+    border-color: blue green;
+    outline: 5px black solid;
+    padding: 5px;
+    margin: 5px;
+    background-color: antiquewhite;
+}
+
+.third {
+    display: inline-block;
+    border: 5px solid;
+    border-color: red green blue yellow;
+    border-style: dashed;
+    outline: 5px black solid;
+    padding: 5px;
+    margin: 5px;
+    background-color: antiquewhite;
+}

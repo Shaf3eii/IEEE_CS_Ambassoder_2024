@@ -1,0 +1,36 @@
+.assign-4-shape-1 {
+    background-image: url("css-assignment-5-8.png");
+    height: 400px;
+    width: 400px;
+    background-size: 80%;
+    background-color: black;
+    padding: 0 20px 20px 0;
+    margin-bottom: 20px;
+}
+.assign-4-shape-2 {
+    background-image: url("css-assignment-5-8.png");
+    height: 400px;
+    width: 400px;
+    background-size: 80%;
+    background-color: brown;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}
+.assign-4-shape-3 {
+    background-image: url("css-assignment-5-8.png");
+    height: 400px;
+    width: 400px;
+    background-size: 80%;
+    background-color: brown;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+.assign-4-shape-4 {
+    background-image: url("css-assignment-5-8.png");
+    height: 400px;
+    width: 400px;
+    background-size: 50%;
+    background-color: brown;
+    padding: 0 0 50px 50px;
+    margin-bottom: 20px;
+}

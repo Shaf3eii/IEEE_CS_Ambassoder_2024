@@ -1,0 +1,36 @@
+.One {
+    max-width: 400px;
+    width: fit-content;
+    background-color: red;
+    color: #FFF;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Two {
+    max-width: 400px;
+    width: fit-content;
+    background-color: red;
+    color: #FFF;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Three {
+    max-width: 400px;
+    width: fit-content;
+    background-color: red;
+    color: #FFF;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Four {
+    max-width: 400px;
+    width: fit-content;
+    background-color: red;
+    color: #FFF;
+    padding: 10px;
+    max-height: 25px;
+    overflow: hidden;
+}
