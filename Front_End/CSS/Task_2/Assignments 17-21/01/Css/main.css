@@ -1,0 +1,10 @@
+div {
+    font-size: 30px;
+    text-transform: capitalize;
+    color: black;
+    background-color: #efefef;
+    text-shadow: 
+    1px 1px  orange,
+    2px 2px  blue,
+    3px 3px  blueviolet;
+}

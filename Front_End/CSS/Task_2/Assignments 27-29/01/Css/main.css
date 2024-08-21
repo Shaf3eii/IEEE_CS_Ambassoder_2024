@@ -1,0 +1,41 @@
+.parent {
+  background-color: #eee;
+  width: 70vw;
+  margin-inline: auto;
+  display: flow-root;
+}
+
+.c1 {
+  margin-top: 15px;
+  width: calc(100% - 2 * 15px);
+}
+
+.c2 {
+  width: calc((100% - 3 * 15px) / 2);
+}
+
+.c3 {
+  width: calc((100% - 4 * 15px) / 3);
+}
+
+.c4 {
+  width: calc((100% - 5 * 15px) / 4);
+}
+
+.c1,
+.c2,
+.c3,
+.c4 {
+    box-sizing: border-box;
+    text-align: center;
+    padding: 1rem;
+    background-color: #bbb;
+    float: left;
+    font-weight: bold;
+    margin-bottom: 15px;
+    margin-inline-start: 15px;
+}
+
+.clear {
+    clear: both;
+}

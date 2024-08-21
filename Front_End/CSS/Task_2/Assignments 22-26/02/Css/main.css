@@ -1,0 +1,21 @@
+.open-sans {
+  font-family: "Open Sans", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 300px;
+  font-style: italic;
+  font-variation-settings: "wdth" 100;
+}
+
+.cairo {
+  font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-variation-settings: "slnt" 0;
+}
+
+.jom {
+  font-family: "Readex Pro", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400px;
+  font-variation-settings: "HEXP" 0;
+}

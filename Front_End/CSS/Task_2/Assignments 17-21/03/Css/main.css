@@ -1,0 +1,16 @@
+
+.three {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+}
+
+.one, 
+.two,
+.three {
+    width: 400px;
+    background-color: #efefef;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
