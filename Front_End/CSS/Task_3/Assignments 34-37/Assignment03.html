@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      p {
+        background-color: #eee;
+        padding: 1rem;
+        border-left: 5px solid #e91e63;
+        min-width: 500px;
+        width: fit-content;
+        margin: 10px auto;
+        position: relative;
+      }
+
+      P::before {
+        position: absolute;
+        border: 6px solid;
+        border-color: transparent #e91e63 transparent transparent;
+      }
+
+      .one::before {
+        content: attr(data-person);
+        margin-right: 10px;
+        left: -68px;
+        top: 7px;
+        background: #efefef;
+      }
+
+      .two:before {
+        content: attr(data-person);
+        margin-right: 10px;
+        left: -71px;
+        top: 4px;
+        background: #efefef;
+      }
+
+      .three:before {
+        content: attr(data-person);
+        margin-right: 10px;
+        left: -63px;
+        top: 5px;
+        background: #efefef;
+      }
+    </style>
+  </head>
+  <body>
+    <p class="one" data-person="Osama">
+      This Is Very Very Long Comment Number One
+    </p>
+    <p class="two" data-person="Ahmed">
+      This Is Very Very Long Comment Number Two
+    </p>
+    <p class="three" data-person="Sayed">
+      This Is Very Very Long Comment Number Three
+    </p>
+  </body>
+</html>

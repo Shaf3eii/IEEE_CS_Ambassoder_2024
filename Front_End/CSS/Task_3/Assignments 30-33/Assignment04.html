@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      table {
+        table-layout: fixed;
+        text-align: center;
+        border: 3px solid #efefef;
+        padding: 2px;
+        border-spacing: 2px;
+      }
+
+      caption {
+        font: bold 1.5rem/1.5 sans-serif;
+        margin-block: 10px;
+      }
+
+      th,
+      td {
+        padding: 1rem 2rem;
+      }
+
+      th {
+        color: white;
+        background-color: black;
+      }
+
+      .del {
+        color: white;
+        background-color: red;
+      }
+
+      button {
+        color: white;
+        background-color: aqua;
+        border: none;
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <table>
+      <caption>
+        High Rated
+      </caption>
+      <thead>
+        <tr>
+          <th>Name</th>
+          <th>Group</th>
+          <th>Rate</th>
+          <th>Title</th>
+          <th>Control</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td rowspan="2">ShaFeiii</td>
+          <td>CF</td>
+          <td>2115</td>
+          <td>Master</td>
+          <td>
+            <button>View</button>
+            <button class="del">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>TC</td>
+          <td>2250</td>
+          <td>Grand Master</td>
+          <td>
+            <button>View</button>
+            <button class="del">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>M5da</td>
+          <td>CF</td>
+          <td>1750</td>
+          <td>Expert</td>
+          <td>
+            <button>View</button>
+            <button class="del">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Bolka</td>
+          <td>CF</td>
+          <td>1950</td>
+          <td>Candidate Master</td>
+          <td>
+            <button>View</button>
+            <button class="del">Delete</button>
+          </td>
+        </tr>
+        <tr>
+          <td>Triple</td>
+          <td>CF</td>
+          <td>2540</td>
+          <td>LGM</td>
+          <td>
+            <button>View</button>
+            <button class="del">Delete</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </body>
+</html>
