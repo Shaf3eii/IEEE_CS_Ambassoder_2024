@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+      div {
+        counter-increment: count;
+        display: inline-block;
+        width: 100px;
+        height: 100px;
+        margin-top: 50px;
+        position: relative;
+        border: 1px solid;
+        border-radius: 50px;
+        text-align: center;
+        padding-top: 38px;
+        margin-right: 17px;
+        box-sizing: border-box;
+        box-shadow: 5px 8px 0 0px #83dae3, -5px -7px 0 0 #d1627c;
+      }
+      div::before {
+        content: "";
+        content: counter(count);
+        position: absolute;
+        top: -10%;
+        left: 41%;
+        color: white;
+        border: 2px solid black;
+        border-radius: 7.5px;
+        height: 15px;
+        width: 15px;
+        background-color: black;
+      }
+    </style>
+  </head>
+  <body>
+    <div>Element</div>
+    <div>Element</div>
+    <div>Element</div>
+  </body>
+</html>

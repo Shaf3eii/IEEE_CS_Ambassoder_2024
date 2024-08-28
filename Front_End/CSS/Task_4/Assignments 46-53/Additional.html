@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      .parent {
+        font-family: "Source Sans 3", sans-serif;
+        font-optical-sizing: auto;
+        /* font-weight: <weight>;
+  font-style: normal; */
+        width: 1000px;
+        background-color: #efefef;
+        display: flex;
+        flex-direction: row;
+        align-content: space-around;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+        text-align: center;
+      }
+      .mobile,
+      .camera {
+        width: 45%;
+        box-sizing: border-box;
+      }
+      button {
+        align-self: center;
+        border: 5px solid rgb(132, 158, 93);
+        border-radius: 27%;
+        padding: 10px;
+        color: rgb(117, 141, 81);
+      }
+      .text {
+        text-align: center;
+        color: #c9c3c3;
+      }
+      img {
+        border-radius: 50%;
+      }
+      .head {
+        color: #3d3a3a;
+        width: 50%;
+        text-align: center;
+        margin: auto;
+        /* font-family: ; */
+        /* font-weight: bold; */
+      }
+    </style>
+  </head>
+  <body>
+    <div class="parent">
+      <div class="mobile">
+        <div class="pic"><img src="pic01.jpg" alt="" /></div>
+        <div class="head"><h3>Lorem ipsum dolor amet nullam</h3></div>
+        <div class="text">
+          <p>
+            Morbi in sem quis dui placerat ornare. Pellentesquenisie euismod in,
+            pharetra a, ultricies in diam sed arcu. Cras consequat egestas augue
+            vulputate.
+          </p>
+        </div>
+        <div><button>Learn More</button></div>
+      </div>
+      <div class="camera">
+        <div class="pic"><img src="pic02.jpg" /></div>
+        <div class="head"><h3>Sed feugiat tempus adipiscing</h3></div>
+        <div class="text">
+          <p>
+            Pellentesque fermentum dolor. Aliquam quam lectus facilisis auctor,
+            ultricies ut, elementum vulputate, nunc blandit ellenste egestagus
+            commodo.
+          </p>
+        </div>
+        <div><button>Learn More</button></div>
+      </div>
+    </div>
+  </body>
+</html>
