@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .grid {
+        display: grid;
+        background-color: #ddd;
+        padding: 20px;
+        width: 800px;
+        height: 400px;
+        grid-template-rows: repeat(6, 1fr);
+        grid-template-columns: repeat(3, 1fr);
+        gap: 20px 20px;
+      }
+      .grid div {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: white;
+        font-weight: bold;
+        background-color: rgb(100, 164, 248);
+      }
+      .eight {
+        grid-row: 1;
+        grid-column: span 3;
+      }
+      .two {
+        grid-row: 2;
+        grid-column: span 2;
+      }
+      .three {
+        grid-row: 2;
+        grid-column: span 1;
+      }
+      .four {
+        grid-row: 3;
+        grid-column: span 1;
+      }
+      .six {
+        grid-row: 4;
+        grid-column: span 1;
+      }
+      .seven {
+        grid-row: 5;
+        grid-column: span 1;
+      }
+      .one {
+        grid-row: 6;
+        grid-column: span 3;
+      }
+      .five {
+        grid-row: 3 / 6;
+        grid-column: 2 / 4;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="grid">
+      <div class="one">1</div>
+      <div class="two">2</div>
+      <div class="three">3</div>
+      <div class="four">4</div>
+      <div class="five">5</div>
+      <div class="six">6</div>
+      <div class="seven">7</div>
+      <div class="eight">8</div>
+    </div>
+  </body>
+</html>

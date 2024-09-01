@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <style>
+      * {
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+      }
+      .layout {
+        display: grid;
+        background-color: #efefef;
+        width: 800px;
+        height: 600px;
+        grid-template-columns: repeat(8, 1fr);
+        grid-template-rows: 50px 1fr 50px;
+        grid-template-areas:
+          "head head head head head head head head"
+          "sec sec sec sec sec sec side side"
+          "foot foot foot foot foot foot foot foot";
+      }
+      .layout *::before {
+        content: var(--name);
+        padding: 20px;
+      }
+      header {
+        --name: "Header";
+        color: aliceblue;
+        grid-area: head;
+        background-color: #0098fd;
+      }
+      section {
+        --name: "Section";
+        color: aliceblue;
+        grid-area: sec;
+        background-color: orangered;
+      }
+      aside {
+        --name: "Aside";
+        color: aliceblue;
+        grid-area: side;
+        background-color: gray;
+      }
+      footer {
+        --name: "Footer";
+        color: aliceblue;
+        grid-area: foot;
+        background-color: rgb(7, 124, 89);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="layout">
+      <header></header>
+      <section></section>
+      <aside></aside>
+      <footer></footer>
+    </div>
+  </body>
+</html>
